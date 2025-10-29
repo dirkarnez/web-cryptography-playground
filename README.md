@@ -1,6 +1,5 @@
-web-cryptography-playground
-===========================
-https://dirkarnez.github.io/web-cryptography-playground
+[web-cryptography-playground](https://dirkarnez.github.io/web-cryptography-playground)
+======================================================================================
 ### Tutorials
 - [dom-examples/web-crypto/encrypt-decrypt/aes-gcm.js at main · mdn/dom-examples](https://github.com/mdn/dom-examples/blob/main/web-crypto/encrypt-decrypt/aes-gcm.js#L24)
 - [SubtleCrypto: generateKey() method - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/generateKey)
