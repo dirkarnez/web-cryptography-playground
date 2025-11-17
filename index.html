@@ -7,16 +7,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-<script type="text/javascript">
-  // Encrypt
-  var ciphertext = CryptoJS.AES.encrypt('my secret message', 'secret key 123').toString();
-  console.log(`ciphertext: ${ciphertext}`);
-  
-  // Decrypt
-  var bytes  = CryptoJS.AES.decrypt(ciphertext, 'secret key 123');
-  var originalText = bytes.toString(CryptoJS.enc.Utf8);
-  
-  console.log(originalText);
-</script>
+    <a href="https://github.com/dirkarnez/web-cryptography-playground" target="_blank">dirkarnez/web-cryptography-playground</a><br>
+    <script type="text/javascript">
+      // Encrypt
+      var ciphertext = CryptoJS.AES.encrypt('my secret message', 'secret key 123').toString();
+      console.log(`ciphertext: ${ciphertext}`);
+      
+      // Decrypt
+      var bytes  = CryptoJS.AES.decrypt(ciphertext, 'secret key 123');
+      var originalText = bytes.toString(CryptoJS.enc.Utf8);
+      
+      console.log(originalText);
+    </script>
 </body>
 </html> 
